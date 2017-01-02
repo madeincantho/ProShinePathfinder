@@ -29,7 +29,7 @@ if you need more details see HOWTO and README
 
 function onPathAction()
     map = getMapName() -- get the map name
-    PathFinder.moveTo(map, "Indigo Plateau Center")
+    PathFinder.moveTo(map, "z")
     -- the line above will move the bot to the map "Indigo Plateau Center"
 end
 
